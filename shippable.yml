@@ -7,4 +7,4 @@ build:
     ci:
         - mvn test
         - mvn clean install
-        - java -jar target/StudentRegistrationSystem-Driver-master-SNAPSHOT.jar
+        - java -jar target/StudentRegistrationSystem-Driver-1.0-SNAPSHOT.jar
