@@ -2,9 +2,9 @@
 
 language: java
 jdk:
-    -oraclejdk8
+    - oraclejdk8
 build:
     ci:
-        -mvn test
-        -mvn clean install
-        -java -jar target/StudentRegistrationSystem-Driver-master-SNAPSHOT.jar
+        - mvn test
+        - mvn clean install
+        - java -jar target/StudentRegistrationSystem-Driver-master-SNAPSHOT.jar
