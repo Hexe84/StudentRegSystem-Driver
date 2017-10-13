@@ -1,0 +1,10 @@
+## YAML Template.
+
+languGE: JAVA
+jdk:
+    -oraclejdk8
+build:
+    ci:
+        -mvn test
+        -mvn install
+        -java -jar target/StudentRegistrationSystem-Driver-master-SNAPSHOT.jar
